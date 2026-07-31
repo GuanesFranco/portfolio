@@ -380,6 +380,86 @@ img, svg {
   margin-bottom: 0.6rem;
 }
 
+/* ===== COURSES ===== */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.course-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: transform var(--transition), border-color var(--transition);
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+}
+
+.course-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.4rem;
+  color: var(--primary);
+}
+
+.course-card p {
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.course-platform {
+  display: inline-block;
+  background: rgba(79, 140, 255, 0.1);
+  color: var(--text);
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  border: 1px solid var(--border);
+}
+
+.certificates {
+  margin-top: 3rem;
+}
+
+.certificates-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.certificate-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  overflow: hidden;
+  transition: transform var(--transition), border-color var(--transition);
+}
+
+.certificate-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius) - 4px);
+  display: block;
+}
+
 /* ===== CONTACT ===== */
 .contact-section {
   text-align: center;
