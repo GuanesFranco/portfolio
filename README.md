@@ -9,7 +9,7 @@ Sitio web portfolio personal, construido con HTML, CSS y JavaScript puro (sin fr
 | Sección | Contenido |
 |---|---|
 | Sobre mí | Perfil, recorrido en fintech, contacto y disponibilidad |
-| Experiencia | Reba Compañía Financiera (jun. 2021 – ene. 2025), dividida en desarrollo backend y análisis funcional |
+| Experiencia | Reba Compañía Financiera (jun. 2021 – ene. 2026), dividida en desarrollo backend y análisis funcional |
 | Proyectos | ProTraining, SubastaYa, TenisAhora y Gutti, con stack y link al repositorio |
 | Habilidades | Lenguajes, bases de datos, arquitectura, DevOps, testing y fintech/IA |
 | Educación | Ingeniería Informática (UNAJ) y Técnico en Programación |
